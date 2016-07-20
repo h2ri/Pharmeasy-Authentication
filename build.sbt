@@ -15,6 +15,7 @@ lazy val root = (project in file("."))
     jdbc,
     evolutions,
     "org.skinny-framework" %% "skinny-orm" % "2.0.7",
+    "org.postgresql" % "postgresql" % "9.4-1200-jdbc41",
     "org.scalikejdbc" %% "scalikejdbc-play-dbapi-adapter" % "2.5.0",
     "com.nulab-inc" %% "play2-oauth2-provider" % "0.17.0"
   )
